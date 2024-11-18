@@ -7,29 +7,35 @@ document.addEventListener("DOMContentLoaded", () => {
   let score = JSON.parse(localStorage.getItem("socre")) || 0;
   let currentIndex = JSON.parse(localStorage.getItem("index")) || 0;
   const quizQuestions = [
-    new problem("What is the capital of France?", "Paris", [
-      "Berlin",
-      "Madrid",
-      "Paris",
-      "Rome",
+    new problem("What is a black hole?", "A region with strong gravity", [
+      "A type of star",
+      "A region with strong gravity",
+      "A comet",
+      "A cloud of gas",
     ]),
-    new problem("Which planet is known as the Red Planet?", "Mars", [
-      "Earth",
-      "Mars",
-      "Jupiter",
-      "Saturn",
+    new problem("What is a neutron star?", "A collapsed star core", [
+      "A large planet",
+      "A collapsed star core",
+      "A moon",
+      "A black hole",
     ]),
-    new problem("What is the largest ocean on Earth?", "Pacific Ocean", [
-      "Atlantic Ocean",
-      "Indian Ocean",
-      "Arctic Ocean",
-      "Pacific Ocean",
+    new problem("What forms after a supernova?", "Black hole or neutron star", [
+      "Comet",
+      "Black hole or neutron star",
+      "Planet",
+      "Asteroid belt",
     ]),
-    new problem("Who wrote 'Hamlet'?", "Shakespeare", [
-      "Shakespeare",
-      "Dickens",
-      "Hemingway",
-      "Austen",
+    new problem("What is the event horizon?", "A black hole's boundary", [
+      "A star's surface",
+      "A black hole's boundary",
+      "A type of light",
+      "A planet's orbit",
+    ]),
+    new problem("What radiation comes from black holes?", "Hawking radiation", [
+      "Gamma rays",
+      "Hawking radiation",
+      "Infrared light",
+      "Solar flares",
     ]),
   ];
 
