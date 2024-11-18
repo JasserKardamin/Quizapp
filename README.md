@@ -11,6 +11,4 @@ Key Features:
 
 Usage:
 
-Clone the repository and open the index.html file in your browser to start the quiz. Customize the questions in the quizQuestions JavaScript array to create a personalized quiz experience.
-
-This project is perfect for those looking to learn or demonstrate their skills in front-end development and JavaScript.
+Just Clone the repository and open the index.html file in your browser to start the quiz.
